@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    /* overflow: hidden; */
+}
+#header{
+    background: purple;
+    color: white; 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+#sub-head{
+    font-size: 15px;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+#loginBtn button{
+    padding: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+}
+#body{
+    background: whitesmoke;
+    margin: 44px;
+    height: 80vh;
+    width: 400px;
+    position: relative;
+    left: 30%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#input-field input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 300px;
+    padding: 6px;
+    margin: 10px;
+}
+#input-field h2{
+    text-align: center;
+    background: plum;
+    width: 280px;
+   font-size: 40px;
+   font-weight: 600;
+   color: #fff;
+}
+#input-field button{
+    padding: 15px;
+    border-radius: 12px;
+    border-style: none;
+    color: #fff;
+    background: palevioletred;
+    margin-top: 20px;
+    /* margin-left: 120px; */
+    font-size: 20px;
+}
+#input-field button a{
+    text-decoration: none;
+    color: #fff;
+}

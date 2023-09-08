@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    background: whitesmoke;
+    overflow: hidden;
+}
+#header{
+    background: purple;
+    color: white; 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+#sub-head{
+    font-size: 15px;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+.imgDiv{
+    width: 300px;
+    margin-left: 600px;
+    margin-top: 50px;
+}
+.imgDiv #image{
+    border: 2px solid;
+    display: block;
+    width: 40%;
+    height: 20vh;
+    background-size: cover;
+}
+.inputFile{
+    margin-top: 40px;
+}
+#input-fields{
+    position: relative;
+    left: 40vw;
+    /* top: 150px; */
+    /* top: 60px; */
+}
+#input-fields input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 300px;
+    padding: 10px;
+    margin: 8px;
+}
+#input-fields button{
+    padding: 13px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    outline: none;
+    position: relative;
+    left: 130px;
+
+}
+#input-fields button a{
+    text-decoration: none;
+}
